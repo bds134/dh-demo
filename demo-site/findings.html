@@ -20,21 +20,21 @@
 
     <main>
       <section>
-        <h2>Featured Artifact: HOLC Grade Boundaries and Present-Day Median Income</h2>
+        <h2>Featured Artifact: HOLC Grade Boundaries and Present-Day Health Outcomes</h2>
 
         <figure>
-          <img src="assets/holc-map.png" alt="Choropleth map showing 1930s HOLC neighborhood grades overlaid with 2020 census tract median household income data. Neighborhoods graded A and B cluster in the north and west; neighborhoods graded C and D cluster in the south and east. Present-day income follows the same spatial pattern.">
-          <figcaption>HOLC grade boundaries (1937) overlaid with 2020 median household income by census tract. Data: Mapping Inequality (University of Richmond) and U.S. Census Bureau American Community Survey 5-Year Estimates.</figcaption>
+          <img src="assets/holc-map.png" alt="Screenshot of an interactive Leaflet map from the Mapping Inequality 'Redlining and Health' essay, showing HOLC-graded neighborhoods with present-day health and social vulnerability data displayed on hover.">
+          <figcaption>Screenshot of the interactive Leaflet visualization from Helen C.S. Meier, "Redlining and Health," <em>Mapping Inequality: Redlining in New Deal America</em>, American Panorama, University of Richmond Digital Scholarship Lab, <a href="https://dsl.richmond.edu/panorama/redlining/health">https://dsl.richmond.edu/panorama/redlining/health</a>.</figcaption>
         </figure>
 
-        <h2>What This Map Shows</h2>
-        <p>The spatial correspondence between 1937 HOLC grades and 2020 income is striking. Neighborhoods graded A and B — described in the original HOLC assessor notes as "homogeneous," "American," and "stable" — cluster in areas that today report median household incomes above $65,000. Neighborhoods graded C and D — described as "declining," "infiltrated," or "hazardous," with explicit references to immigrant and Black residents — cluster in areas that today report median household incomes below $40,000. The boundaries visible in the 1937 maps are legible, in many cases, in the 2020 data.</p>
+        <h2>What This Visualization Shows</h2>
+        <p>The interactive map accompanying Helen C.S. Meier's essay "Redlining and Health" illustrates the stark gap in health outcomes between census tracts that contained A-graded and D-graded HOLC areas. Meier reports that a census tract containing an A-graded area today shows a projected life expectancy of 86 years, an asthma prevalence of 8%, a diabetes prevalence of 8%, and a mental health problems prevalence of 8%. By contrast, a census tract containing a D-graded ("hazardous") area shows a projected life expectancy of just 68 years, an asthma prevalence of 14%, a diabetes prevalence of 21%, and a mental health problems prevalence of 22%. As Meier summarizes: "Evidence suggests that HOLC redlined areas are associated with many present-day health outcomes, including mortality, pre-term birth, stage of cancer diagnosis, COVID-19 infection burden, infant mortality, poor mental health, poor physical health, self-rated health, cardiovascular disease, hypertension and diabetes prevalence."</p>
 
-        <h2>What This Map Cannot Show</h2>
-        <p>Correlation is not causation. This map does not demonstrate that HOLC grades caused present-day income disparities — only that the two spatial patterns are similar. The map cannot account for the many intervening variables between 1937 and 2020: urban renewal, highway construction, selective municipal investment, white flight, and others. It also cannot show what the city looked like before 1937, or whether the HOLC grades reflected existing inequality rather than creating new forms of it. Those are questions the map raises; they are not questions it answers.</p>
+        <h2>What This Visualization Cannot Show</h2>
+        <p>Meier is careful to note that redlining "certainly was not the only determinant of inequality" and that the mechanisms by which historic redlining influences health "remain largely unstudied." The visualization does not capture other historic policies — urban renewal, restrictive covenants, steering practices — that also shaped neighborhood disinvestment over time. Meier also cautions that "each city has its own story": the racist logic encoded in HOLC area descriptions differed between cities (explicitly anti-Black in Richmond, Virginia; predominantly anti-immigrant and anti-Semitic in Milwaukee, Wisconsin), and local context is essential to interpreting any single map.</p>
 
-        <h2>How This Artifact Was Produced</h2>
-        <p>The HOLC boundary data was downloaded from the Mapping Inequality project at the University of Richmond. The census data was retrieved via the Census Bureau API using Python. Both datasets were joined on census tract FIPS codes and mapped using GeoPandas. The map was exported as a PNG and is a static image — it does not update automatically as new census data becomes available.</p>
+        <h2>About This Artifact</h2>
+        <p>This page reproduces a screenshot of the Leaflet map embedded in Meier's essay on the <em>Mapping Inequality</em> platform maintained by the University of Richmond Digital Scholarship Lab. The underlying data, visualization, and interpretive framework are the work of Meier and the Mapping Inequality team. The screenshot was captured for use as a static reference in this course project; the original interactive version, including hover data for individual census tracts, is available at the URL above.</p>
       </section>
     </main>
 
