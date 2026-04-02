@@ -6,7 +6,7 @@ A small static digital history site examining the relationship between 1930s HOL
 
 ## Live Site
 
-[https://[username].github.io/[repo-name]/](https://github.com/)
+[https://[username].github.io/[repo-name]/](https://github.com/bds134/dh-demo/tree/main/demo-site/)
 
 ## Repository Contents
 
