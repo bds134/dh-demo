@@ -47,4 +47,6 @@ This site is hosted via GitHub Pages. To enable:
 
 This repository is the demo site for the Week 9/10 GitHub Pages workshop. It demonstrates the required four-page structure: Home, Planning, Findings, and Sustainability.
 
-Student sites should follow this structure. See the assignment description in the course repository for full requirements.
+Student projects with specific needs and a well-defined product do not need to follow this template exactly — that is fine. What matters is that the site is **simple, static, and well documented**. Whatever structure you choose, your site should include a **planning page** (design decisions, interface sketches, research question) and a **sustainability page** (platform documentation, data sources, preservation notes) for now. These pages stand in for a methods page and a site documentation page that have not yet been developed for the course; once those page types are defined, the planning and sustainability pages can be retired or repurposed.
+
+See the assignment description in the course repository for full requirements.
