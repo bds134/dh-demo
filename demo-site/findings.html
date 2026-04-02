@@ -1,0 +1,46 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Findings — Redlining and Urban Space</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>Redlining and Urban Space</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="planning.html">Planning</a>
+        <a href="findings.html">Findings</a>
+        <a href="sustainability.html">Sustainability</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Featured Artifact: HOLC Grade Boundaries and Present-Day Median Income</h2>
+
+        <figure>
+          <img src="assets/holc-map.png" alt="Choropleth map showing 1930s HOLC neighborhood grades overlaid with 2020 census tract median household income data. Neighborhoods graded A and B cluster in the north and west; neighborhoods graded C and D cluster in the south and east. Present-day income follows the same spatial pattern.">
+          <figcaption>HOLC grade boundaries (1937) overlaid with 2020 median household income by census tract. Data: Mapping Inequality (University of Richmond) and U.S. Census Bureau American Community Survey 5-Year Estimates.</figcaption>
+        </figure>
+
+        <h2>What This Map Shows</h2>
+        <p>The spatial correspondence between 1937 HOLC grades and 2020 income is striking. Neighborhoods graded A and B — described in the original HOLC assessor notes as "homogeneous," "American," and "stable" — cluster in areas that today report median household incomes above $65,000. Neighborhoods graded C and D — described as "declining," "infiltrated," or "hazardous," with explicit references to immigrant and Black residents — cluster in areas that today report median household incomes below $40,000. The boundaries visible in the 1937 maps are legible, in many cases, in the 2020 data.</p>
+
+        <h2>What This Map Cannot Show</h2>
+        <p>Correlation is not causation. This map does not demonstrate that HOLC grades caused present-day income disparities — only that the two spatial patterns are similar. The map cannot account for the many intervening variables between 1937 and 2020: urban renewal, highway construction, selective municipal investment, white flight, and others. It also cannot show what the city looked like before 1937, or whether the HOLC grades reflected existing inequality rather than creating new forms of it. Those are questions the map raises; they are not questions it answers.</p>
+
+        <h2>How This Artifact Was Produced</h2>
+        <p>The HOLC boundary data was downloaded from the Mapping Inequality project at the University of Richmond. The census data was retrieved via the Census Bureau API using Python. Both datasets were joined on census tract FIPS codes and mapped using GeoPandas. The map was exported as a PNG and is a static image — it does not update automatically as new census data becomes available.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>HIST 501D Digital History &nbsp;|&nbsp; Binghamton University &nbsp;|&nbsp; Spring 2026 &nbsp;|&nbsp; <a href="https://github.com/">Repository</a></p>
+    </footer>
+
+  </body>
+  </html>
