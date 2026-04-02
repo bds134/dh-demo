@@ -6,7 +6,7 @@ A small static digital history site examining the relationship between 1930s HOL
 
 ## Live Site
 
-[https://[username].github.io/[repo-name]/](https://github.com/bds134/dh-demo/tree/main/demo-site/bds134/dh-demo/tree/main/demo-site/)
+[https://bds134.github.io/dh-demo/demo-site/index.html](https://bds134.github.io/dh-demo/demo-site/index.html)
 
 ## Repository Contents
 
@@ -41,7 +41,7 @@ This site is hosted via GitHub Pages. To enable:
 1. Push this repository to GitHub
 2. Go to **Settings → Pages**
 3. Set source to the `main` branch, root folder
-4. The live URL will appear at `https://[username].github.io/[repo-name]/`
+4. The live URL will appear at `https://bds134.github.io/dh-demo/demo-site/index.html`
 
 ## Course Context
 
