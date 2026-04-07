@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div id="map" style="height: 100%;"></div>
+
+    <script>
+        var map = L.map('map').setView([40.7488, -73.9857], 13); // Centered on NYC
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Adding a marker
+        L.marker([40.7484, -73.9857]).addTo(map)
+            .bindPopup('Empire State Building')
+            .openPopup();
+        // Adding a GeoJSON layer
+        var geojsonFeature = {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-73.9857, 40.7484]
+            },
+            "properties": {
+                "name": "Empire State Building"
+            }
+        };
+        L.geoJSON(geojsonFeature).addTo(map);
+    </script>
+</body>
+
+</html>
